@@ -10,7 +10,7 @@ public class UserController {
 	
 	@GetMapping()
 	public String getUsers() {
-		return "HTTP GET request was sent - version 1";
+		return "HTTP GET request was sent - version 2";
 	}
 
 }
